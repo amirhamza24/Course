@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+/* Header Section Start */
+
+.header {
+    background: url('images/banner2.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.header .header-info {
+    text-align: right;
+    width: 347px;
+    margin: auto;
+    padding-top: 150px;
+    padding-left: 531px;
+}
+
+.header .header-info .header-title h1 {
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+
+.header .header-info .header-paragraph p {
+    color: #444343;
+    line-height: 22px;
+}
+
+.header .header-info .btn {
+    padding: 14px 30px;
+    background: #F15B22;
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header .header-title  {
+}
+
+/* Header Section End */
+
+/* Failure Section Start */
+.failure {
+    display: flex;
+    margin: 100px 0;
+    align-items: center;
+}
+
+.failure img {
+    width: 400px;
+}
+
+.failure-info {
+    padding-left: 190px;
+    width: 325px;
+}
+
+.failure .failure-info p {
+    color: #444343;
+}
+
+.failure .failure-info .failure-paragraph {
+    margin: 16px 0;
+}
+
+.failure .failure-info .failure-paragraph p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.failure .failure-info .failure-option {
+    line-height: 26px;
+    font-size: 14px;
+}
+/* Failure Section End */
+
+
+/* Plan Section Start */
+.plan {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.plan .title {
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.plan .plan-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan .plan-info .single-plan .single-title h2 {
+    margin: 10px 0;
+}
+
+.plan .plan-info .single-plan .single-info p {
+    color: #737272;
+}
+/* Plane Section End */
+
+
+/* Gradient image section Start */
+.gradient {
+    background:  url('images/gradient2.png'), url('images/watch.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 275px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.gradient-info {
+    position: absolute;
+    top: 64px;
+    left: 60px;
+    width: 365px;
+}
+
+.gradient-info h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.gradient-info .btn {
+    padding: 14px 30px;
+    color: #F15B22;
+    font-size: 15px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+}
+/* Gradient image section End */
+
+/* Footer Section Start */
+footer {
+    background: #151414;
+    padding: 130px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer-left .left-title h1 {
+    font-weight: 700;
+    color: #F8F8F8;
+}
+
+.footer .footer-left .left-info {
+    width: 435px;
+    margin: 16px 0;
+}
+
+.footer .footer-left .left-info p {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.footer .footer-left .left-contact {
+    color: #FFFFFF;
+}
+
+.footer .footer-left .left-contact p {
+    line-height: 35px;
+    font-size: 14px;
+}
+
+.footer .footer-left .left-icons {
+    margin-top: 20px;
+}
+
+.footer .footer-left .left-icons img {
+    margin-right: 15px;
+}
+
+.footer .footer-right h1 {
+    font-size: 20px;
+    color: #FFFFFF;
+    weight: 600;
+}
+
+.footer .footer-right input {
+    width: 100%;
+    padding: 13px 14px;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.footer .footer-right .btn {
+    padding: 14px 30px;
+    color: #F15B22;
+    font-size: 15px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+}
+/* Footer Section End */
