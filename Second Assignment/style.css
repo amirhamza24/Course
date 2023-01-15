@@ -376,11 +376,11 @@ Responsive Deign for Small Device (>577px)
     }
 
     header .container .header-details .header-info .details-info {
-        width: 450px;
+        width: 100%;
     }
 
     header .container .header-details .header-img img {
-        width: 450px;
+        width: 100%;
     }
 
     section .container .quick-list {
@@ -401,9 +401,17 @@ Responsive Deign for Small Device (>577px)
         padding: 20px;
     }
 
+    .features .left-features {
+        padding-right: 20px;
+    }
+
+    .features .left-features .single-features {
+        text-align: center;
+    }
+
     .features .right-features .right-features-img img {
-        width: 400px;
-        height: 600px;
+        width: 100%;
+        height: 500px;
     }
 
     .features .right-features .features-btn {
@@ -420,6 +428,7 @@ Responsive Deign for Small Device (>577px)
 
     .facts-heading p {
         margin: 20px auto;
+        width: 100%;
     }
 
     .facts-icons {
@@ -436,4 +445,7 @@ Responsive Deign for Small Device (>577px)
         margin-top: 20px;
     }
 
+    .sponsor-heading {
+        width: 100%;
+    }
 }
