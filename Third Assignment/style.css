@@ -1,0 +1,99 @@
+.bg-nav {
+    background: none;
+}
+
+.btn-nav {
+    background: #B68C5A;
+    color: white;
+}
+
+.btn-nav:hover {
+    background: #B68C5A;
+    color: white;
+}
+
+/* Add Banner */
+.banner {
+    background: url('images/banner.png');
+    height: 512px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'EB Garamond', serif;
+}
+
+.title {
+    width: 620px;
+    margin: 0 auto;
+}
+
+.carousel-img {
+    width: 100px;
+    height: 100px;
+}
+
+.bottom-space {
+    bottom: 80px;
+}
+
+.faq-img img {
+    height: 400px;
+    width: 100%;
+}
+
+.footer-input {
+    padding: 13px  20px;
+    width: 260px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+.send-icon i {
+    width: 47px;
+    height: 47px;
+    background: #B68C5A;
+    display: grid;
+    place-items: center;
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+    margin-left: -20px;
+}
+
+
+@media only screen and (max-width:576px)
+{
+    .small-screen {
+        padding: 0 10px;
+    }
+
+    .small-screen-input {
+        flex-direction: column;
+    }
+
+    .btn-search {
+        margin-top: 10px;
+        width: 130px;
+    }
+
+    .title {
+        width: 100%;
+        padding: 10px;
+
+    }
+
+    .bottom-space {
+        bottom: -10px;
+    }
+
+    .carousel-img {
+        width: 50px;
+        height: 50px;
+    }
+}
