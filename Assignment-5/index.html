@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Tailwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="w-11/12 mx-auto my-10">
+        <div class="bg-sky-100 px-12 py-4 flex justify-between items-center rounded-lg">
+            <div class="">
+                <h3 class="text-3xl font-medium">Interactive</h3>
+                <p>Geometry Genius</p>
+            </div>
+            <div class="">
+                <button class="px-8 py-2 text-white font-semibold rounded hover:bg-sky-600 bg-sky-500">Blog</button>
+            </div>
+        </div>
+    </header>
+
+
+
+    <main>
+        <section class="w-11/12 mx-auto my-10 flex gap-4">
+            <div class="grid grid-cols-3 gap-4 w-8/12">
+                <div class="border p-10 text-center">
+                    <img src="images/triangle.png" alt="triangle">
+
+                    <h3 id="triangle-title" class="text-xl font-semibold mt-6">Triangle</h3>
+                    <p>Area (A) = 0.5 x b x h</p>
+
+                    <div class="flex justify-center mt-3 mb-6">
+                        <input id="triangle-first-input" class="bg-gray-100 w-20 px-3 py-1" type="text" placeholder="b">
+                        <p class="mx-2">cm</p>
+                        <input id="triangle-second-input" class="bg-gray-100 w-20 px-3 py-1 mr-2" type="text" placeholder="h">
+                        <p>cm</p>
+                    </div>
+
+                    <button id="btn-triangle" class="px-14 py-2 text-white font-semibold rounded hover:bg-sky-600 bg-sky-500">Calculate</button>
+                </div>
+
+                <div class="border p-10 text-center">
+                    <img class="mt-8" src="images/rectangle.png" alt="Rectangle">
+
+                    <h3 id="rectangle-title" class="text-xl font-semibold mt-6">Rectangle</h3>
+                    <p>Area (A) = w x l</p>
+
+                    <div class="flex justify-center mt-3 mb-6">
+                        <input id="rectangle-first-input" class="bg-gray-100 w-20 px-3 py-1" type="text" placeholder="w">
+                        <p class="mx-2">cm</p>
+                        <input id="rectangle-second-input" class="bg-gray-100 w-20 px-3 py-1 mr-2" type="text" placeholder="l">
+                        <p>cm</p>
+                    </div>
+
+                    <button id="btn-rectangle" class="px-14 py-2 text-white font-semibold rounded hover:bg-sky-600 bg-sky-500">Calculate</button>
+                </div>
+
+                <div class="border p-10 text-center">
+                    <img class="mt-12" src="images/parallelogram.png" alt="Parallelogram">
+
+                    <h3 id="parallelogram-title" class="text-xl font-semibold mt-6">Parallelogram
+                    </h3>
+                    <p>Area (A) = b x h</p>
+
+                    <div class="flex justify-center mt-3 mb-6">
+                        <input id="parallelogram-first-input" class="bg-gray-100 w-20 px-3 py-1" type="text" placeholder="b">
+                        <p class="mx-2">cm</p>
+                        <input id="parallelogram-second-input" class="bg-gray-100 w-20 px-3 py-1 mr-2" type="text" placeholder="h">
+                        <p>cm</p>
+                    </div>
+
+                    <button id="btn-parallelogram" class="px-14 py-2 text-white font-semibold rounded hover:bg-sky-600 bg-sky-500">Calculate</button>
+                </div>
+                
+                <div class="border p-10 text-center">
+                    <img src="images/rhombus.png" alt="Rhombus">
+
+                    <h3 id="rhombus-title" class="text-xl font-semibold mt-6">Rhombus</h3>
+                    <p>Area(A) = 0.5 x d<sub>1</sub> x d<sub>2</sub></p>
+
+                    <div class="flex justify-center mt-3 mb-6">
+                        <input id="rhombus-first-input" class="bg-gray-100 w-20 px-3 py-1" type="text" placeholder="d1">
+                        <p class="mx-2">cm</p>
+                        <input id="rhombus-second-input" class="bg-gray-100 w-20 px-3 py-1 mr-2" type="text" placeholder="d2">
+                        <p>cm</p>
+                    </div>
+
+                    <button id="btn-rhombus" class="px-14 py-2 text-white font-semibold rounded hover:bg-sky-600 bg-sky-500">Calculate</button>
+                </div>
+
+
+                <div class="border p-10 text-center">
+                    <img class="h-28 w-auto mx-auto" src="images/pentagon.png" alt="Pentagon">
+
+                    <h3 id="pentagon-title" class="text-xl font-semibold mt-10">Pentagon</h3>
+                    <p>Area (A) = 0.5 x p x b</p>
+
+                    <div class="flex justify-center mt-3 mb-6">
+                        <input id="pentagon-first-input" class="bg-gray-100 w-20 px-3 py-1" type="text" placeholder="p">
+                        <p class="mx-2">cm</p>
+                        <input id="pentagon-second-input" class="bg-gray-100 w-20 px-3 py-1 mr-2" type="text" placeholder="b">
+                        <p>cm</p>
+                    </div>
+
+                    <button id="btn-pentagon" class="px-14 py-2 text-white font-semibold rounded hover:bg-sky-600 bg-sky-500">Calculate</button>
+                </div>
+
+                <div class="border p-10 text-center">
+                    <img class="mt-6" src="images/ellipse.png" alt="Ellipse">
+
+                    <h3 id="ellipse-title" class="text-xl font-semibold mt-6">Ellipse</h3>
+                    <p>Area (A) = &#960;ab</p>
+
+                    <div class="flex justify-center mt-3 mb-6">
+                        <input id="ellipse-first-input" class="bg-gray-100 w-20 px-3 py-1" type="text" placeholder="a">
+                        <p class="mx-2">cm</p>
+                        <input id="ellipse-second-input" class="bg-gray-100 w-20 px-3 py-1 mr-2" type="text" placeholder="b">
+                        <p>cm</p>
+                    </div>
+
+                    <button id="btn-ellipse" class="px-14 py-2 text-white font-semibold rounded hover:bg-sky-600 bg-sky-500">Calculate</button>
+                </div>
+            </div>
+
+            
+            <div class="border px-4 py-8 text-center w-4/12 h-96">
+                <h3 class="text-sm font-semibold underline mb-4">Area Calculation</h3>
+
+                <table id="table" class="table">
+                    <tbody id="main-table" class="flex justify-between">
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <script src="utilities.js"></script>
+    <script src="calculate.js"></script>
+</body>
+</html>
