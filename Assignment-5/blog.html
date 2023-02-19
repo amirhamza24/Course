@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Tailwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+    <section class="w-10/12 mx-auto bg-gray-200 py-12 px-8 mt-10">
+
+        <!-- question 1 -->
+        <div>
+            <h1 class="font-semibold"><span class="font-semibold text-xl mr-2 md:mr-5">Question-1:</span> What is DOM and what is the purpose of DOM?</h1>
+
+            <h1 class=""><span class="font-semibold text-xl mr-3 md:mr-12">Answer: </span> DOM is Document Object Model. The Document Object Model (DOM) is a programming interface for web documents. DOM is the Object Representation of HTML to JavaScript. It essentially allows programs to read and manipulate the page’s content, structure, and styles.</h1>
+        </div>
+
+        <!-- question 2 -->
+        <div class="mt-6">
+            <h1 class="font-semibold"><span class="font-semibold text-xl mr-2 md:mr-4">Question-2:</span> How will you select HTML elements using DOM? Name the DOM methods.</h1>
+
+            <h1 class=""><span class="font-semibold text-xl mr-3 md:mr-12">Answer: </span> There are 4 ways to select HTML elements using DOM. Which is: 
+                <h2>1. getElementsByTagName() method</h2>
+                <h2>2. getElementsByClassName() method</h2>
+                <h2>3. getElementById() method</h2>
+                <h2>4. querySelector(), querySelectorAll() method</h2>
+            </h1>
+        </div>
+        
+        <!-- question 3 -->
+        <div class="mt-6">
+            <h1 class="font-semibold"><span class="font-semibold text-xl mr-2 md:mr-4">Question-3:</span> What is event bubble?</h1>
+
+            <h1 class=""><span class="font-semibold text-xl mr-3 md:mr-12">Answer: </span> Event Bubbling is a concept in the DOM (Document Object Model).
+            Let's say we have an HTML file. There is a div in the file body, there is a span in the div and there is a button in that span. If you click on that button, you can think of it like you're also clicking the span. This is because the button is a child of the span.
+            It's also the same thing with the div and the body. When you click the button, it's just like you're also clicking the span, div, and body because they are the button's ancestors. This is the idea of event bubbling.</h1>
+        </div>
+        
+        <!-- question 4 -->
+        <div class="mt-6">
+            <h1 class="font-semibold"><span class="font-semibold text-xl mr-2 md:mr-4">Question-4:</span> What is a callback function and why will you use it?</h1>
+
+            <h1 class=""><span class="font-semibold text-xl mr-3 md:mr-12">Answer: </span> When a function is passed as an argument to another function, that function is called a callback function.
+            We need callback functions to make sure that a function is only going to get executed after a specific task is completed and not before its completion. For instance, in the case of an event listener, we first listen for a specific event, and if the function detects it, then only the callback function is executed. </h1>
+        </div>
+    </section>
+</body>
+</html>
