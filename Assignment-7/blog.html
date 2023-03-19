@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Hero</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              fontFamily: {
+                common: ["Rubik", "sans-serif"],
+              },
+            },
+          },
+        };
+    </script>
+</head>
+<body>
+
+ <section class="w-10/12 mx-auto bg-gray-200 py-12 px-8 mt-10">
+
+    <!-- question 1 -->
+    <div>
+        <h1 class="font-semibold"><span class="font-semibold text-xl mr-2 md:mr-5">Question-1:</span>  What is the difference between map(), filter(), forEach() and find() in JavaScript?</h1>
+
+        <h1 class=""><span class="font-semibold">map(): </span> map() creates a new array from calling a function for every array element and returns the new array. This method doesn't change the original array.</h1>
+
+        <h1 class=""><span class="font-semibold">filter(): </span> filter() Method is used to create a new array from a given array consisting of only those elements from the given array which satisfy a condition set by the argument method.</h1>
+
+        <h1 class=""><span class="font-semibold">forEach(): </span> forEach() method executes a provided function once for each array element.</h1>
+
+        <h1 class=""><span class="font-semibold">find(): </span> find() method in Javascript is used to get the value of the first element in the array that satisfies the provided condition.</h1>
+
+    </div>
+
+    <!-- question 2 -->
+    <div class="mt-6">
+        <h1 class="font-semibold"><span class="font-semibold text-xl mr-2 md:mr-4">Question-2:</span> What is the difference between Local Storage, Session Storage and Cookies?</h1>
+
+        <h1 class=""><span class="font-semibold">Local Storage: </span> Local Storage is the most recent mechanism. It allows for larger amounts of data to be stored, but the data is not deleted when the browser is closed. Local storage is useful for storing data that the user will need to access later, such as offline data.</h1>
+
+        <h1 class=""><span class="font-semibold">Session Storage: </span> Session Storage is similar to cookies, but the data is only stored for the current session. This means that the data will be deleted when the user closes the browser. Session storage is useful for storing data that is sensitive, such as login credentials.</h1>
+
+        <h1 class=""><span class="font-semibold">Cookies: </span> Cookies are the oldest and most well-known mechanism. They are simple to use and well supported by browsers.</h1>
+    </div>
+    
+    <!-- question 3 -->
+    <div class="mt-6">
+        <h1 class="font-semibold"><span class="font-semibold text-xl mr-2 md:mr-4">Question-3:</span> What is event loop? How event loop works is JavaScript?</h1>
+
+        <h1 class="">The Event Loop has one simple job to monitor the Call Stack and the Callback Queue. If the Call Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which effectively runs it. Such an iteration is called a tick in the Event Loop.</h1>
+    </div>
+
+    <!-- question 4 -->
+    <div class="mt-6">
+        <h1 class="font-semibold"><span class="font-semibold text-xl mr-2 md:mr-4">Question-4:</span> quizTimer() function works?</h1>
+
+        <h1 class="">This function will work on how many times you have completed the quiz. It will work for Time Consumed. Its calculate the total time of this quiz.</h1>
+    </div>
+
+     <!-- question 5 -->
+     <div class="mt-6">
+        <h1 class="font-semibold"><span class="font-semibold text-xl mr-2 md:mr-4">Question-5:</span> chooseQuiz() function works?</h1>
+
+        <h1 class="">If we do not use the chooseQuiz function we can not select any answer and don't show anything what I'm selected.</h1>
+    </div>
+
+
+</section>
+
+
+    <script src="blog.js"></script>
+</body>
+</html>
