@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "author_name": "Asaduzzaman Akash",
+        "blog_title": "How to get your first job as a self-taught programmer",
+        "read_time": 5,
+        "blog_img": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "author_img": "https://images.unsplash.com/photo-1628260412297-a3377e45006f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "publish_date": "Mar 14(6 days ago)"
+    },
+    {
+        "id": "2",
+        "author_name": "Rakibul Islam",
+        "blog_title": "Master Microsoft Power Platform and Become an In-Demand!",
+        "read_time": 15,
+        "blog_img": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "author_img": "https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+        "publish_date": "Mar 10(9 days ago)"
+    },
+    {
+        "id": "3",
+        "author_name": "Imran Bishwas",
+        "blog_title": "How to get your first job as a Mobile App Development",
+        "read_time": 10,
+        "blog_img": "https://images.unsplash.com/photo-1552308995-2baac1ad5490?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "author_img": "https://images.unsplash.com/photo-1590431257462-ae5c0e1baf1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=395&q=80",
+        "publish_date": "Mar 18(3 days ago)"
+    },
+    {
+        "id": "4",
+        "author_name": "Mina Mostafa",
+        "blog_title": "How to get your first job as a Software Development",
+        "read_time": 20,
+        "blog_img": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
+        "author_img": "https://images.unsplash.com/photo-1635586409095-b5d87cebe12b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "publish_date": "Mar 11(8 days ago)"
+    }
+]

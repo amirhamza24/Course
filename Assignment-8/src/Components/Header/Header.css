@@ -1,0 +1,18 @@
+.header {
+    background: #1C2B35;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header h1 {
+    cursor: pointer;    
+}
+
+.header nav a {
+    transition: .3s;
+
+}
+
+.header nav a:hover {
+    color: #ff4500;
+}
