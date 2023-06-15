@@ -27,7 +27,7 @@ async function run() {
 
     const toyCollection = client.db('toyMarketPlace').collection('allToy');
 
-    // searching index
+    // searching index (cut) after error solving
     
 
     // getting all toys but limit 20 toys
