@@ -57,6 +57,7 @@ const Register = () => {
         })
     };
 
+    // for google registration. use googleSign another components for registration that's can't use this function cause. 
     // const handleGoogleSign = () => {
     //     googleSign()
     //     .then(result => {
